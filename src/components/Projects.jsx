@@ -9,6 +9,8 @@ import Weather from "../assets/weather.jpg";
 import Movie from "../assets/movies.avif";
 import APIs from "../assets/apis.jpg";
 import Note from "../assets/note.jpg";
+import Cloth from "../assets/cloth.jpg";
+
 
 const Projects = () => {
   return (
@@ -48,6 +50,85 @@ const Projects = () => {
             </div>
           </div>
 
+
+          <div
+            style={{ backgroundImage: `url(${Chain})` }}
+            className="shadow-lg shadow-[#cbd5e1] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="text-center opacity-0 group-hover:opacity-100">
+              <span className="text-[#fff] text-2xl font-bold tracking-wider">
+                ChainPal
+              </span>
+              <div>
+                <div className="pt-8">
+                  <a href="https://chainpal-98cdc.web.app/" target='_blank' rel="noreferrer">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
+                      View Website
+                    </button>
+                  </a>
+                  <a href="https://github.com/athi-v/cryptochain" target='_blank' rel="noreferrer">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
+                      Github
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${Covid})` }}
+            className="shadow-lg shadow-[#cbd5e1] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="text-center opacity-0 group-hover:opacity-100">
+              <span className="text-[#fff] text-2xl font-bold tracking-wider">
+                ByteData
+              </span>
+              <div>
+                <div className="pt-8">
+                  <a href="https://bytedatacovid.netlify.app/" target='_blank' rel="noreferrer">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
+                      View Website
+                    </button>
+                  </a>
+                  <a href="https://github.com/athi-v/covid-pop" target='_blank' rel="noreferrer">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
+                      Github
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div
+            style={{ backgroundImage: `url(${Cloth})` }}
+            className="shadow-lg shadow-[#cbd5e1] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="text-center opacity-0 group-hover:opacity-100">
+              <span className="text-[#fff] text-2xl font-bold tracking-wider">
+                VP Clothing
+              </span>
+              <div>
+                <div className="pt-8">
+                  <a href="https://vpclothing.company.site/" target='_blank' rel="noreferrer">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
+                      View Website
+                    </button>
+                  </a>
+                  <a href="https://github.com/athi-v/ecomm_1" target='_blank' rel="noreferrer">
+                    <button  className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
+                      Github
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
           <div
             style={{ backgroundImage: `url(${Note})` }}
             className="shadow-lg shadow-[#cbd5e1] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -73,55 +154,6 @@ const Projects = () => {
             </div>
           </div>
           
-          <div
-            style={{ backgroundImage: `url(${Chain})` }}
-            className="shadow-lg shadow-[#cbd5e1] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="text-center opacity-0 group-hover:opacity-100">
-              <span className="text-[#fff] text-2xl font-bold tracking-wider">
-                ChainPal
-              </span>
-              <div>
-                <div className="pt-8">
-                  <a href="https://chainpal-crypto.netlify.app/" target='_blank' rel="noreferrer">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
-                      View Website
-                    </button>
-                  </a>
-                  <a href="https://github.com/athi-v/chainpal" target='_blank' rel="noreferrer">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
-                      Github
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${Covid})` }}
-            className="shadow-lg shadow-[#cbd5e1] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="text-center opacity-0 group-hover:opacity-100">
-              <span className="text-[#fff] text-2xl font-bold tracking-wider">
-                Covid-19
-              </span>
-              <div>
-                <div className="pt-8">
-                  <a href="https://covidcorona2019.netlify.app/" target='_blank' rel="noreferrer">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
-                      View Website
-                    </button>
-                  </a>
-                  <a href="https://github.com/athi-v/covid2019" target='_blank' rel="noreferrer">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg">
-                      Github
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <div
             style={{ backgroundImage: `url(${Weather})` }}
